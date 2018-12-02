@@ -4,6 +4,7 @@
   "description": "the exercise repository for \"Refactoring (2nd Edition)\"",
   "main": "showBill.js",
   "scripts": {
+    "main": "node showBill.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,0 +1,23 @@
+{
+  "name": "book_refactoring_exercise",
+  "version": "1.0.0",
+  "description": "the exercise repository for \"Refactoring (2nd Edition)\"",
+  "main": "showBill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kenju/book_refactoring_exercise.git"
+  },
+  "keywords": [
+    "refactoring",
+    "node.js"
+  ],
+  "author": "kenju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenju/book_refactoring_exercise/issues"
+  },
+  "homepage": "https://github.com/kenju/book_refactoring_exercise#readme"
+}

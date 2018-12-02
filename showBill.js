@@ -1,4 +1,5 @@
 const fs = require('fs');
+const util = require('util');
 
 function statement(invoice, plays) {
   let totalAmount = 0;
@@ -46,18 +47,28 @@ function statement(invoice, plays) {
   return result;
 }
 
-fs.readFile('plays.json', 'utf8', (err, playsJSON) => {
-  if (err) { console.error(err) }
+const readFilePromise = util.promisify(fs.readFile);
+
+async function readPlays() {
+  return await readFilePromise('plays.json', 'utf8');
+}
+
+async function readInvoices() {
+  return await readFilePromise('invoices.json', 'utf8');
+}
+
+async function main() {
+
+  const playsJSON = await readPlays();
+  const invoicesJSON = await readInvoices();
 
   const plays = JSON.parse(playsJSON);
 
-  fs.readFile('invoices.json', 'utf8', (err, invoicesJSON) => {
-    if (err) { console.error(err) }
-
-    const invoices = JSON.parse(invoicesJSON);
-    Array.from(invoices).forEach(invoice => {
-      const result = statement(invoice, plays);
-      console.log(result);
-    });
+  const invoices = JSON.parse(invoicesJSON);
+  Array.from(invoices).forEach(invoice => {
+    const result = statement(invoice, plays);
+    console.log(result);
   });
-});
+};
+
+main();

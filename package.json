@@ -4,8 +4,8 @@
   "description": "the exercise repository for \"Refactoring (2nd Edition)\"",
   "main": "showBill.js",
   "scripts": {
-    "main": "node showBill.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "main": "node main.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kenju/book_refactoring_exercise/issues"
   },
-  "homepage": "https://github.com/kenju/book_refactoring_exercise#readme"
+  "homepage": "https://github.com/kenju/book_refactoring_exercise#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }

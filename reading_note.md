@@ -33,9 +33,27 @@
 
 ### Chapter 4 Building Tests
 
+- The Value of Self-Testing Code
+- Sample Code to Test
+- A First Test
+- Add Another Test
+- Modifying the Fixture
+- Probing the Boundaries
+- Much More Than This
+
 
 
 ## Keywords
 
-- Bad Smells in Code
+- 
+
+
+
+## My Impressions
+
+
+
+## Discussion Points
+
+- 
 

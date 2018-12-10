@@ -9,29 +9,54 @@
 ### Chapter 3 Bad Smells in Code
 
 - Mysterious Name
+  - *Change Function Declaration / Rename Variable / Rename Field*
 - Duplicated Code
+  - *Extract Function / Slide Statements / Pull Up Method*
 - Long Function
+  - *Extract Function / Replace Temp with Query / Introduce Parameter Object / Preserve Whole Object / Replace Function with Command*
 - Long Parameter List
+  - *Replace Parameter with Query / Preserve Whole Object / Introduce Parameter Object / Remove Flag Argument / Combine Functions into Class*
 - Global Data
-- Mustable Data
+  - *Encapsulate Variable*
+- Mutable Data
+  - *Encapsulate Variable / Split Variable / Slide Statements / Extract Function / Separate Query from Modifier / Remove Setting Method / Replace Derived Variable with Query / Combine Functions into Class / Conbine Functions into Transform / Change Reference to Value*
 - Divergent Change
+  - *Split Phase / Move Function / Extract Function / Extract Class*
 - Shotgun Surgery
+  - *Move Functin / Move Field / Combine Functions into Class / Combine Functions into Transform / Split Phase / Inline Function / Inline Class*
 - Feature Envy
+  - *Move Function / Extract Function*
 - Data Clumps
+  - *Extract Class / Introduce Parameter Object / Preserve Whole Object*
 - Primitive Obsession
+  - *Replace Primitive with Object / Replace Type Code with Subclasses / Replace Conditional with Polymorphysm / Extract Class / Introduce Parameter Object*
 - Repeated Switches
+  - *Replace Conditional with Polymorphism*
 - Loops
+  - *Replace Loop with Pipeline*
 - Lazy Element
+  - *Inline Function / Inline Class / Collapse Hierarchy*
 - Speculative Generality
+  - Is it like YAGNI?
+  - *Collapse Hierarchy / Inline Function / Inline Class / Change Function Declaration / Remove Dead Code*
 - Temporary Field
+  - *Extract Class / Move Function / Introduce Special Case*
 - Message Chains
+  - *Hide Delegate / Extract Function / Move Function*
 - Middle Man
+  - *Remove Middle Man / Inline Function / Replace Superclass with Delegate / Replace Subclass with Delegate*
 - Insider Trading
+  - *Move Function / Move Field / Hide Delegate / Replace Subclass with Delegate / Replace Superclass with Delegate*
 - Large Class
+  - *Extract Class / Extract Superclass / Replace Type Code with SUbclasses*
 - Alternative Classes with Different Interfaces
+  - *Chhange Function Declaration / Move Function / Extract Superclass*
 - Data Class
+  - *Encapsulate Record / Remove Setting Method / Move Function / Extract Function / Split Phase*
 - Refuced Bequest
+  - *Replace Subclass with Delegate / Replace Superclass with Delegate*
 - Comments
+  - *Extract Function / Change Function Declaration / Introduce Assertion*
 
 ### Chapter 4 Building Tests
 
@@ -51,7 +76,7 @@
 
 ## Impressions
 
-I like the way of naming some bad smells in code (e.g. "Insider Trading", "Shotgun Surgery")
+I like the way of naming some bad smells in code (e.g. "Insider Trading", "Shotgun Surgery", "Refuced Bequest", etc.)
 
 ### "Bad Smells" and Language/Framework Specification
 
@@ -87,9 +112,9 @@ Chapter 4 says how important it is to have tests before refactoring, and then de
 
   - When to write tests, Why you write tests, Which tests you prefer, a believer of TDD, etc...
 
-- Which one prefer "assert" or "expect" style? 
+  - Which one prefer "assert" or "expect" style? 
 
-  - I wonder, this questions is simply about pure likes and tastes, or not.
+    - I wonder, this questions is simply about pure likes and tastes, or not.
 
 
 ## References

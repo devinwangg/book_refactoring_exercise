@@ -45,7 +45,9 @@
 
 ## Keywords
 
+- code smells / bad smells in code
 - delegation
+- self-testing code
 
 ## Impressions
 
@@ -57,14 +59,16 @@ I think that Ruby & RoR code often tends to have "Middle Man" cases due to `dele
 
 ## Summary / Overview
 
-- 
+Chapter 3 summarizes up the list of "bad smells" in code. This chapter is kind of catalogue of bad practices code examples. These "bad sells" are exactly what you are going to "refactor". Having a good sense of smell might be one of qualifications for being a good engineer.
 
 ## Discussion Points
 
 - How was your impressions about chapter 3 & 4?
-- Did you have any interesting experiences of "Bad Smells" to share?
-
-
+- Do you have any interesting experiences of "Bad Smells" to share?
+- Do you have any experiences for finding bugs (and how to fix it) to share?
+  - (p.85) *"Every programmer can tell a story of a bug that took a whole day (or more) to find"*
+- Do you have any policy/rules/opinions about writing tests?
+  - When to write tests, Why you write tests, Which tests you prefer, a believer of TDD, etc...
 
 ## References
 
@@ -72,4 +76,4 @@ I think that Ruby & RoR code often tends to have "Middle Man" cases due to `dele
   - more "bad smells"
     - e.g. "SameNameDifferentMeaning", "InstanceofInConditionals", etc
     - ["Boredom Is A Smell"](http://wiki.c2.com/?BoredomIsaSmell)
-      - I completely aggree :innocent:
+      - I completely agree :innocent:

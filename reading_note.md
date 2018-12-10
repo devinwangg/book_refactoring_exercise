@@ -1,8 +1,10 @@
 # Reading Notes of "Refactoring (2nd Edition)" Chapter 3-4
 
+- Date: 2018/12/10
+- Chapter 3, N pages, (pX-Y)
+- Chapter 4, N pages, (pX-Y)
 
-
-## TOC
+## Contents
 
 ### Chapter 3 Bad Smells in Code
 
@@ -47,11 +49,13 @@
 
 - 
 
+## Impressions
 
+- 
 
-## My Impressions
+## Summary / Overview
 
-
+- 
 
 ## Discussion Points
 

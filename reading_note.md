@@ -61,6 +61,12 @@ For example, is you are writing an old (I mean, pre-ES5) JavaScript, you may oft
 
 For another example, Ruby & RoR codes often tend to have "Middle Man" cases due to `delegetes` (in Rails API) or `def_delegators` (in `Forwardable` module) methods. This is an useful method and I like it, but sometimes "too much delegation" can be found.
 
+### About Tests
+
+IMO, this is exactly how I decide when to write tests. If I feel confidence (and there is no team's rule to force me to write tests), I rather write slim tests. If I feel un-confidence then I spend much more time on writing tests.
+
+> (p. 100) The best measure for a good enough test suite is subjective: How confident are you that if someone introduces a defect into the code, some test will fail?
+
 ## Summary / Overview
 
 Chapter 3 summarizes up the list of "bad smells" in code. This chapter is kind of catalogue of bad practices code examples. These "bad sells" are exactly what you are going to "refactor". Having a good sense of smell might be one of qualifications for being a good engineer.

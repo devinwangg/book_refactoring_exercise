@@ -43,15 +43,17 @@
 - Probing the Boundaries
 - Much More Than This
 
-
-
 ## Keywords
 
-- 
+- delegation
 
 ## Impressions
 
-- 
+I like the way of naming some bad smells in code (e.g. "Insider Trading", "Shotgun Surgery")
+
+### In Ruby & RoR
+
+I think that Ruby & RoR code often tends to have "Middle Man" cases due to `delegetes` (in Rails API) or `def_delegators` (in `Forwardable` module) methods. This is an useful method and I like it, but sometimes "too much delegation" can be found.
 
 ## Summary / Overview
 
@@ -59,5 +61,15 @@
 
 ## Discussion Points
 
-- 
+- How was your impressions about chapter 3 & 4?
+- Did you have any interesting experiences of "Bad Smells" to share?
 
+
+
+## References
+
+- http://wiki.c2.com/?CodeSmell
+  - more "bad smells"
+    - e.g. "SameNameDifferentMeaning", "InstanceofInConditionals", etc
+    - ["Boredom Is A Smell"](http://wiki.c2.com/?BoredomIsaSmell)
+      - I completely aggree :innocent:
